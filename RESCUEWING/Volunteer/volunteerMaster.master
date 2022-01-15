@@ -1,0 +1,306 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="volunteerMaster.master.cs" Inherits="Volunteer_volunteerMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<%--<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>--%>
+<html lang="en">
+<head>
+ <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<title>Corp Active Corporate Category Flat Bootstrap Responsive Website Template | About :: W3layouts</title>
+	
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Corp Active Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+	
+	<link href="../web/css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
+	
+	<!-- css files -->
+	<link rel="stylesheet" href="../web/css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="../web/css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="../web/css/fontawesome-all.css"> <!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+
+	<!-- //web-fonts -->
+	
+</head>
+
+<body>
+
+<!-- header -->
+<header>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="index.html">
+				<i class="fas fa-boxes"></i>RESCUE WING
+			</a>
+			<button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto text-center">
+					<li class="nav-item  mr-lg-3">
+						<a class="nav-link" href="Home.aspx">Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item mr-lg-3">
+						<a class="nav-link " href="Training.aspx">Training</a>
+					</li>
+					
+					<li class="nav-item mr-3">
+						<a class="nav-link" href="volunteer_bloodbank.aspx">Blood Bank</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="volunteer_myprofile.aspx">My Profile</a>
+					</li>
+                   
+				</ul>
+				<div class="buttons">
+                    <a href="../Common/logout.aspx"  class="btn btn-info btn-lg-block w3ls-btn px-4 text-uppercase mr-2">Logout</a>
+				</div>
+
+			</div>
+		</nav>
+	</div>
+</header>
+<!-- //header -->
+
+<!-- inner page banner -->
+<section class="inner-page-banner">
+	
+</section>
+<!-- inner page banner -->
+
+	
+<!-- About -->
+<section class="about py-5">
+	<div class="container">
+		<div class="">
+			
+
+
+             <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+
+
+		</div>
+	</div>
+</section>
+<!-- //About -->
+
+
+<section class="copyright py-4">
+	<div class="agileits_w3layouts-copyright text-center">
+		<p>© 2021 RESCUE WING. All Rights Reserved | Design by
+			
+		</p>
+	</div>
+</section>
+<!-- //footer -->
+<!-- Login modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-uppercase" id="exampleModalLabel1">Login</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="#" method="post" class="p-3">
+						<div class="form-group">
+							<label for="recipient-name" class="col-form-label">User Name</label>
+							<input type="email" class="form-control" placeholder="User Name" name="Name" id="recipient-name" required="">
+						</div>
+						<div class="form-group">
+							<label for="recipient-name1" class="col-form-label">Password</label>
+							<input type="password" class="form-control" placeholder="Password" name="Name" id="recipient-name1" required="">
+						</div>
+						<div class="right-w3l mt-4 mb-3">
+							<input type="submit" class="form-control" value="Login">
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Login modal -->
+
+	<!-- Register modal -->
+	<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-uppercase" id="exampleModalLabel1">Register Here</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="#" method="post" class="p-3">
+						<div class="form-group">
+							<label for="recipient-name" class="col-form-label">First Name</label>
+							<input type="text" class="form-control" placeholder="First Name" name="Name" id="recipient-name2" required="">
+						</div>
+						<div class="form-group">
+							<label for="recipient-name" class="col-form-label">Last Name</label>
+							<input type="text" class="form-control" placeholder="Last Name" name="Name" id="recipient-name3" required="">
+						</div>
+						<div class="form-group">
+							<label for="recipient-name" class="col-form-label">Email id</label>
+							<input type="email" class="form-control" placeholder="Email id" name="Name" id="recipient-name4" required="">
+						</div>
+						<div class="form-group">
+							<label for="recipient-name" class="col-form-label">Mobile Number</label>
+							<input type="text" class="form-control" placeholder="Mobile Number" name="Name" id="recipient-name5" required="">
+						</div>
+						<div class="form-group">
+							<label for="recipient-name1" class="col-form-label">Password</label>
+							<input type="password" class="form-control" placeholder="Password" name="Name" id="recipient-name6" required="">
+						</div>
+						<div class="right-w3l mt-4 mb-3">
+							<input type="submit" class="form-control" value="Create account">
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Register modal -->
+<!-- js-scripts -->		
+
+	<!-- js -->
+	<script type="text/javascript" src="../web/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../web/js/bootstrap.js"></script> <!-- Necessary-JavaScript-File-For-Bootstrap --> 
+	<!-- //js -->
+	
+	<!-- stats -->
+	<script src="../web/js/jquery.waypoints.min.js"></script>
+	<script src="../web/js/jquery.countup.js"></script>
+	<script>
+	    $('.counter').countUp();
+	</script>
+	<!-- //stats -->
+
+	<!-- tabs -->
+	<script src="../web/js/easy-responsive-tabs.js"></script>
+	<script>
+	    $(document).ready(function () {
+	        $('#horizontalTab').easyResponsiveTabs({
+	            type: 'default', //Types: default, vertical, accordion           
+	            width: 'auto', //auto or any width like 600px
+	            fit: true,   // 100% fit in a container
+	            closed: 'accordion', // Start closed if in accordion view
+	            activate: function (event) { // Callback function if tab is switched
+	                var $tab = $(this);
+	                var $info = $('#tabInfo');
+	                var $name = $('span', $info);
+	                $name.text($tab.text());
+	                $info.show();
+	            }
+	        });
+	        $('#verticalTab').easyResponsiveTabs({
+	            type: 'vertical',
+	            width: 'auto',
+	            fit: true
+	        });
+	    });
+	</script>
+	<!--//tabs-->
+	
+	<!-- for-Testimonials -->
+	<!-- required-js-files-->
+	<link href="../web/css/owl.carousel.css" rel="stylesheet">
+		<script src="../web/js/owl.carousel.js"></script>
+			<script>
+		$(document).ready(function() {
+		  $("#owl-demo").owlCarousel({
+			items : 1,
+			lazyLoad : true,
+			autoPlay : true,
+			navigation : false,
+			navigationText :  false,
+			pagination : true,
+		  });
+		});
+		</script>
+	<!--//required-js-files-->
+	<!-- //for-Testimonials -->
+
+	<!-- start-smoth-scrolling -->
+	<script src="../web/js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="../web/js/move-top.js"></script>
+	<script type="text/javascript" src="../web/js/easing.js"></script>
+	<script type="text/javascript">
+	    jQuery(document).ready(function ($) {
+	        $(".scroll").click(function (event) {
+	            event.preventDefault();
+	            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+	        });
+	    });
+	</script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        /*
+	        var defaults = {
+	        containerID: 'toTop', // fading element id
+	        containerHoverID: 'toTopHover', // fading element hover id
+	        scrollSpeed: 1200,
+	        easingType: 'linear' 
+	        };
+	        */
+
+	        $().UItoTop({ easingType: 'easeOutQuart' });
+
+	    });
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- start-smoth-scrolling -->
+	
+<!-- //js-scripts -->
+
+</body>
+</html>
